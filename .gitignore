@@ -1,0 +1,21 @@
+.qodo
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform plan files
+*.tfplan
+
+# .terraform directory (for cached modules and provider binaries)
+.terraform/
+
+# Terraform variable files (they may contain sensitive data)
+terraform.tfvars
+*.auto.tfvars
+
+# Backup files
+*.bak
+*.swp
+
+# Log files
+*.log
